@@ -1,10 +1,4 @@
-import {
-  BaseEntity,
-  Entity,
-  PrimaryColumn,
-  PrimaryGeneratedColumn,
-  Column,
-} from 'typeorm';
+import { BaseEntity, Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 import { TaskStatus } from './task.model';
 
 @Entity()
